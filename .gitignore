@@ -57,4 +57,3 @@ session_backup/
 data.*
 config.json
 yarn.*
-package-lock.*
