@@ -1,19 +1,12 @@
 export const run = {
    usage: ['owner'],
    category: 'miscs',
-   async: async (m, {
-      client,
-      Config
-   }) => {
-      client.sendContact(m.chat, [{
-         name: Config.owner_name,
-         number: Config.owner,
-         about: 'Owner & Creator'
-      }], m, {
-         org: 'Neoxr Network',
-         website: 'https://api.neoxr.my.id',
-         email: 'contact@neoxr.my.id'
-      })
+   async: async (m, { client }) => {
+      await client.sendText(
+         m.chat,
+         'https://wa.me/6287824856453',
+         m
+      )
    },
    error: false
 }
