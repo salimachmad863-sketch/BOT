@@ -1,6 +1,4 @@
 {
-   "owner": "6287824856453",
-   "owner_name": "Wildan Izzudin",
    "database": "data",
    "limit": 15,
    "ram_limit": "900mb",
@@ -19,5 +17,4 @@
       "number": 6287824856453,
       "code": "NEOXRBOT"
    }
-
 }
