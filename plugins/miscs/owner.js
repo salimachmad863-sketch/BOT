@@ -4,8 +4,7 @@ export const run = {
    async: async (m, { client }) => {
       await client.sendText(
          m.chat,
-         'https://wa.me/6287824856453',
-         m
+         'Hubungi owner di sini: https://wa.me/6287824856453'
       )
    },
    error: false
